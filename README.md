@@ -184,7 +184,7 @@ Windows-family operating systems can use
 > - Safer than Unrestricted, which allows all scripts.
 >
 > **Option 4: Completely Disable PowerShell Execution Policy (Not Recommended)**
-> If you want to remove all script restrictions (⚠ security risk), run:
+> If you want to remove all script restrictions (**⚠ security risk**), run:
 > 
 > ```sh
 > Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force
