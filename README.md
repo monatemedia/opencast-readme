@@ -130,22 +130,24 @@ This will generate static content you can serve via any web server in `build/`.
 
 If you prefer to run a local development server directly, you can use this instead:
 
-#### On Unix-like OS
+#### Unix-like OS
+
+Unix-like (Linux and macOS) operating systems can use
 
 ```sh
-% npm run start # Unix-like (Linux and macOS) operating systems
+% npm run start
 ```
 
-#### On Windows OS 
+#### Windows OS 
 
-You can run on Windows using 
+Windows-family operating systems can use 
  - Git Bash,
  - PowerShell, 
  - Windows Command Prompt(CMD) or,
  - Windows Subsystem for Linux 2(WSL2)
 
 ```sh
-% npm run winstart # Windows-family operating systems
+% npm run winstart
 ```
 
 
