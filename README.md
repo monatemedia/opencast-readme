@@ -133,7 +133,7 @@ If you prefer to run a local development server directly, you can use this inste
 #### On Unix-like OS
 
 ```sh
-% npm run start # Unix-like (Linux and MacOS) operating systems
+% npm run start # Unix-like (Linux and macOS) operating systems
 ```
 
 #### On Windows OS 
@@ -156,8 +156,9 @@ You can run on Windows using
 > 
 > You can temporarily or permanently allow running scripts by modifying PowerShell's execution policy. 
 > 
-> **Option 1: Use Git Bash or CMD**
+> **Option 1: Use Git Bash, CMD or WSL2**
 > - **Git Bash and Windows Command Prompt** don’t enforce execution policies like PowerShell.
+> - **Windows Subsystem for Linux 2** allows the use of a GNU/Linux environment from within Windows.
 > - **PowerShell** has security restrictions that prevent running scripts unless explicitly allowed.
 > 
 > **Option 2: Temporary PowerShell Fix (For Current Session Only)**
