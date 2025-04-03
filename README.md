@@ -108,31 +108,42 @@ In older versions, you might need to create such a role in the security configur
 
 ## Build Instructions
 
-To build Studio yourself, execute these commands:
+To clone Studio, execute these commands:
 
 ```sh
 % git clone git@github.com:elan-ev/opencast-studio.git
 % cd opencast-studio
 % npm install
+```
+
+### Serve From Build Folder
+
+You can serve the application from the `build/` folder.
+
+```sh
 % npm run build:release   # or npm run build:dev for development
 ```
 
 This will generate static content you can serve via any web server in `build/`.
-That's it.
+
+### Serve From Local Development Server
 
 If you prefer to run a local development server directly, you can use this instead:
 
-On Unix-like OS
+#### On Unix-like OS
 
 ```sh
 % npm run start # Unix-like (Linux and Mac) operating systems
 ```
 
-Or on Windows OS using Git Bash, CMD and PowerShell
+#### Or on Windows OS 
+
+You can run on Windows using Git Bash, CMD (Windows Command Prompt) and PowerShell
 
 ```sh
 % npm run winstart # Windows-family operating systems
 ```
+
 
 > [!CAUTION]
 > ### PowerShell Execution Policy
