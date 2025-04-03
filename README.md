@@ -190,7 +190,7 @@ Windows-family operating systems can use
 > Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force
 > ```
 >
-> ⚠ Warning: This allows running any script, including potentially harmful ones.
+> **⚠ Warning**: This allows running any script, including potentially harmful ones.
 >
 
 
