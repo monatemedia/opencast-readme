@@ -133,10 +133,10 @@ If you prefer to run a local development server directly, you can use this inste
 #### On Unix-like OS
 
 ```sh
-% npm run start # Unix-like (Linux and Mac) operating systems
+% npm run start # Unix-like (Linux and MacOS) operating systems
 ```
 
-#### Or on Windows OS 
+#### On Windows OS 
 
 You can run on Windows using 
  - Git Bash,
