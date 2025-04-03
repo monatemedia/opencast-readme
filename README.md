@@ -138,7 +138,11 @@ If you prefer to run a local development server directly, you can use this inste
 
 #### Or on Windows OS 
 
-You can run on Windows using Git Bash, CMD (Windows Command Prompt) and PowerShell
+You can run on Windows using 
+ - Git Bash,
+ - PowerShell, 
+ - Windows Command Prompt(CMD) or,
+ - Windows Subsystem for Linux 2(WSL2)
 
 ```sh
 % npm run winstart # Windows-family operating systems
